@@ -1,5 +1,13 @@
 # curbside-pickup
 
+
+This is the open source code for curbside pickup. An app for posting free stuff found along the side of the road.
+
+
+
+## Made with
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
