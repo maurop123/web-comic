@@ -1,5 +1,7 @@
 # Just Another Web Comic
 
+https://maurop123.github.io/web-comic/
+
 Made with minimal styling ala xkcd.
 
 
