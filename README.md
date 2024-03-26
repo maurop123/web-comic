@@ -1,22 +1,15 @@
-# curbside-pickup
+# Just Another Web Comic
 
-
-This is the open source code for curbside pickup. An app for posting free stuff found along the side of the road.
-
+Made with minimal styling ala xkcd.
 
 
 ## Made with
 
-
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 & Tailwind in Vite.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Vim. Srsly
 
 ## Customize configuration
 
