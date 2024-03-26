@@ -4,82 +4,54 @@
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+ <div class="grid grid-cols-1" id="main">
+	<header>
+		<h1>Web Comics <span>by Mo Laughs</span></h1>
+	</header>
+	<main>
+		<img src="/Untitled_2024_03_25.png" />
+		<div class="nav">
+			<a href="#">Previous</a>
+			<span>
+				Untitled_2024_03_25.png
+			</span>
+			<a href="#">Next</a>
+		</div>
+	</main>
+  </div>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
-  header {
-    line-height: 1.5;
-    max-height: 100vh;
-  }
+.grid#main {
+	margin: 0 40px;
 
-  .logo {
-    display: block;
-    margin: 0 auto 2rem;
-  }
+	header {
+		h1 span {
+			font-size: 0.6em;
+			font-family: serif;
+			font-style: italic;
+		}
+	}
 
-  nav {
-    width: 100%;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 2rem;
-  }
+	main {
+		img {
+			border: 1px solid black;
+		}
 
-  nav a.router-link-exact-active {
-    color: var(--color-text);
-  }
+		.nav {
+			text-align: center;
+			margin: 10px 0;
 
-  nav a.router-link-exact-active:hover {
-    background-color: transparent;
-  }
+			* {
+				padding: 0 15px;
+			}
+		}
+	}
 
-  nav a {
-    display: inline-block;
-    padding: 0 1rem;
-    border-left: 1px solid var(--color-border);
-  }
-
-  nav a:first-of-type {
-    border: 0;
-  }
-
-  @media (min-width: 1024px) {
-    header {
-      display: flex;
-      place-items: center;
-      padding-right: calc(var(--section-gap) / 2);
-    }
-
-    .logo {
-      margin: 0 2rem 0 0;
-    }
-
-    header .wrapper {
-      display: flex;
-      place-items: flex-start;
-      flex-wrap: wrap;
-    }
-
-    nav {
-      text-align: left;
-      margin-left: -1rem;
-      font-size: 1rem;
-
-      padding: 1rem 0;
-      margin-top: 1rem;
-    }
-  }
+	a {
+		color: blue;
+		text-decoration: underline;
+	}
+}
 </style>
